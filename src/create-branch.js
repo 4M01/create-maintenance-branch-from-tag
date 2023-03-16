@@ -17,9 +17,9 @@ async function run() {
 
 
         // Create the branch
-        const branch = `release@${tag}`;
+        const branch = `maintenance/m-${tag}`;
 
-        core.info(`Creating branch ${branch}`);
+        core.info(`Creating branch maintenance/m-${branch}`);
 
         // Check if the branch already exists
         try {
