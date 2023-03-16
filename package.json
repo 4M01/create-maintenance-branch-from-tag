@@ -1,0 +1,27 @@
+{
+  "name": "create-maintenance-branch-from-tag",
+  "version": "v0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/main.js",
+    "precommit": "npm run build && git add dist/ -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4M01/create-maintenance-branch-from-tag.git"
+  },
+  "keywords": [],
+  "author": "4m01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4M01/create-maintenance-branch-from-tag/issues"
+  },
+  "homepage": "https://github.com/4M01/create-maintenance-branch-from-tag#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "@actions/github": "^5.0.3",
+    "@vercel/ncc": "^0.34.0"
+  }
+}
