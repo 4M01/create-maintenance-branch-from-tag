@@ -1,5 +1,5 @@
-name: 'Create a maintenance Branch'
-description: 'Create a Branch from tag'
+name: 'Create a maintenance Branch from tag'
+description: 'Create a Maintenance Branch from tag'
 author: '4m01'
 inputs:
   tag_name:
